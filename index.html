@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function login() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            if (username === "royhan" && password === "lippryhn") {
+                window.location.href = "dashboard.html";
+            } else {
+                alert("Username atau password salah!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="left-side">
+        </div>
+        <div class="right-side">
+            <div class="login-form">
+                <h2>Login</h2>
+                <input type="text" id="username" class="input-box" placeholder="Username">
+                <input type="password" id="password" class="input-box" placeholder="Password">
+                <button class="login-button" onclick="login()">Login</button>
+                <a href="dashboard.html" class="forgot-link">Lupa Password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
