@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    background-color: #e0e0e0;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar-header {
+    height: 50px;
+    background-color: #b0e0e6;
+  }
+  
+  .sidebar {
+    width: 200px; /* Atur lebar sidebar sesuai kebutuhan */
+    background-color: #f4f4f4; /* Warna latar belakang sidebar */
+    padding: 20px; /* Jarak di dalam sidebar */
+}
+
+.sidebar-btn {
+    background-color: #33dc39;
+    color: white;
+    padding: 15px 0; /* Mengatur padding atas dan bawah */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    width: 100%; /* Mengatur lebar tombol agar sama dengan lebar sidebar */
+    box-sizing: border-box; /* Memastikan padding dan margin dihitung dalam lebar */
+}
+  
+  .content {
+    margin-left: 220px; /* Sesuaikan dengan lebar sidebar */
+    padding: 20px;
+  }
+  
+  .user, .search {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; 
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
