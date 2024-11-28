@@ -17,25 +17,25 @@ body {
   }
   
   .sidebar {
-    width: 200px; /* Atur lebar sidebar sesuai kebutuhan */
-    background-color: #f4f4f4; /* Warna latar belakang sidebar */
-    padding: 20px; /* Jarak di dalam sidebar */
+    width: 200px; 
+    background-color: #f4f4f4; 
+    padding: 20px; 
 }
 
 .sidebar-btn {
     background-color: #33dc39;
     color: white;
-    padding: 15px 0; /* Mengatur padding atas dan bawah */
+    padding: 15px 0; 
     text-align: center;
     text-decoration: none;
     display: block;
     margin: 10px 0;
-    width: 100%; /* Mengatur lebar tombol agar sama dengan lebar sidebar */
-    box-sizing: border-box; /* Memastikan padding dan margin dihitung dalam lebar */
+    width: 100%; 
+    box-sizing: border-box; 
 }
   
   .content {
-    margin-left: 220px; /* Sesuaikan dengan lebar sidebar */
+    margin-left: 220px; 
     padding: 20px;
   }
   
